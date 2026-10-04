@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  color: #222;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  background: #c62828;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  text-transform: capitalize;
+}
+
+input,
+select {
+  padding: 0.4rem 0.5rem;
+}
+
+.controls,
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.filters label {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 0.2rem 0.45rem;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.list a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  text-transform: capitalize;
+}
+
+.list a:hover {
+  background: #fdecea;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.gallery a {
+  width: 120px;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+  text-decoration: none;
+  color: #222;
+  text-transform: capitalize;
+}
+
+.gallery img,
+.detail img {
+  width: 96px;
+  height: 96px;
+}
+
+.detail {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+
+.detail img {
+  width: 160px;
+  height: 160px;
+}
+
+.detail p {
+  margin: 0.35rem 0;
+}
+
+.controls a,
+.controls span {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #c62828;
+  color: #c62828;
+  text-decoration: none;
+}
+
+.controls span {
+  color: #999;
+  border-color: #ccc;
+}
